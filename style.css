@@ -7,8 +7,6 @@ body{
     background-color: black;
 }
 .bell{
-    height: 5vw;
-    width: 5vw;
     border-radius: 50%;
     color: yellow;
 }
@@ -27,4 +25,36 @@ body{
 
 .show {
     right: 20px; /* Slide in */
+}
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .bell {
+        height:16vw;
+        width: 16vw;
+    }
+}
+
+/* Medium devices (tablets, 600px to 900px) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .bell {
+        height:6vw;
+        width: 6vw; 
+    }
+}
+
+/* Large devices (desktops, 900px and up) */
+@media only screen and (min-width: 900px) {
+    .bell {
+        height:6vw;
+        width: 6vw; 
+    }
+}
+
+/* Extra large devices (large screens, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bell {
+        height:4vw;
+        width: 4vw;
+    }
 }
